@@ -2,7 +2,7 @@
 // @import 'variables/colors';
 @import 'variables/fonts';
 @import 'variables/general';
-// @import 'variables/z-index';
+@import 'variables/z-index';
 
 // Vendor
 @import 'vendor/reset/reset';
@@ -17,7 +17,7 @@
 // @import 'layout';
 // @import 'reset/box-sizing';
 // @import 'reset/img';
-// @import 'application';
+@import 'application';
 // @import 'animations';
 // @import 'base/button';
 // @import 'base/input';
