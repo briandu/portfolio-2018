@@ -1,0 +1,14 @@
+body {
+  height: 100vh;
+
+  .application {
+    min-height: calc(100vh - #{$main-nav-height});
+  }
+}
+
+p {
+  font-family: $font-family-montserrat;
+  font-weight: $font-weight-regular;
+  line-height: 32px;
+  font-size: 16px;
+}
