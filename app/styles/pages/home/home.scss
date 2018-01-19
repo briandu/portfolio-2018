@@ -1,5 +1,44 @@
-video {
-  float: right;
-  min-height: calc(100% - #{$main-nav-height});
-  width: 55%;
+.application.home {
+  .headings {
+    font-weight: $font-weight-medium;
+    left: 10%;
+    position: absolute;
+    top: 35%;
+    z-index: $z-index-bump;
+
+    h1:last-of-type {
+      color: #bdbdbd;
+      margin-bottom: 50px;
+      margin-top: 12px;
+    }
+
+    hr {
+      border: 2px solid #dbdbdb;
+      margin: 0;
+      display: inline-block;
+      width: 8%;
+      vertical-align: top;
+    }
+
+    p {
+      padding-left: 24px;
+      display: inline-block;
+      width: 35%;
+    }
+  }
+
+  .video-wrapper {
+    align-items: center;
+    display: flex;
+    height: calc(100% - #{$main-nav-height});
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    right: $page-margin;
+    width: 45%;
+
+    video {
+      height: 85%;
+    }
+  }
 }
