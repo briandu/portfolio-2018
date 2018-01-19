@@ -1,7 +1,7 @@
 // Variables
 // @import 'variables/colors';
 @import 'variables/fonts';
-// @import 'variables/general';
+@import 'variables/general';
 // @import 'variables/z-index';
 
 // Vendor
@@ -32,27 +32,4 @@
 // @import 'components/extra'; // Not Managed by ember-component-css
 
 // Pages
-// @import 'pages/account/details';
-// @import 'pages/account/saved';
-// @import 'pages/admin-login';
-// @import 'pages/cms';
-// @import 'pages/company';
-// @import 'pages/company/our-team/member';
-// @import 'pages/company/careers';
-// @import 'pages/company/our-agents';
-// @import 'pages/company/our-story';
-// @import 'pages/company/our-team';
-// @import 'pages/company/press';
-// @import 'pages/contact';
-// @import 'pages/download-app';
-// @import 'pages/dynamic/listing';
-// @import 'pages/dynamic/buildings';
-// @import 'pages/education-centre/education-centre';
-// @import 'pages/home-appraisal';
-// @import 'pages/home';
-// @import 'pages/new-listings';
-// @import 'pages/new-property-alerts';
-// @import 'pages/playground';
-// @import 'pages/school/listings';
-// @import 'pages/school';
-// @import 'pages/search';
+@import 'pages/home/home';

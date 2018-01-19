@@ -1,0 +1,5 @@
+video {
+  float: right;
+  min-height: calc(100% - #{$main-nav-height});
+  width: 55%;
+}
