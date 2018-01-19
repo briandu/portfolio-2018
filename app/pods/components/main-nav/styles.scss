@@ -1,5 +1,12 @@
 &  {
   nav {
-    height: 100px;
+    height: 65px;
+
+    span {
+      font-family: $font-family-montserrat;
+      font-size: 20px;
+      line-height: 65px;
+      margin: 0 65px;
+    }
   }
 }
