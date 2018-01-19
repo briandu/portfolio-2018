@@ -7,22 +7,23 @@
     z-index: $z-index-bump;
 
     h1:last-of-type {
-      color: #bdbdbd;
+      color: $color-grey-5;
       margin-bottom: 50px;
       margin-top: 12px;
     }
 
     hr {
       border: 2px solid $color-grey-9;
-      margin: 0;
       display: inline-block;
-      width: 8%;
+      margin: 0;
       vertical-align: top;
+      width: 5%;
     }
 
     p {
-      padding-left: 24px;
       display: inline-block;
+      margin-top: -10px;
+      padding-left: 24px;
       width: 35%;
     }
   }
@@ -30,15 +31,15 @@
   .video-wrapper {
     align-items: center;
     display: flex;
-    height: calc(100% - #{$main-nav-height});
+    height: calc(100% - 2 * #{$page-margin});
     justify-content: center;
     overflow: hidden;
     position: absolute;
     right: $page-margin;
     width: 45%;
 
-    video {
-      height: 85%;
-    }
+    // video {
+    //   height: 85%;
+    // }
   }
 }
