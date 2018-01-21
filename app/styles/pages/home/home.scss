@@ -1,7 +1,8 @@
 .application.home {
-  .headings {
+  .content {
     font-weight: $font-weight-medium;
     left: 10%;
+    overflow: hidden;
     position: absolute;
     top: 35%;
     z-index: $z-index-bump;
@@ -37,9 +38,5 @@
     position: absolute;
     right: $page-margin;
     width: 45%;
-
-    // video {
-    //   height: 85%;
-    // }
   }
 }

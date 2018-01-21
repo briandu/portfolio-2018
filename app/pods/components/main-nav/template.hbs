@@ -1,3 +1,15 @@
 <nav>
-  <span>Brian Du</span>
+  <span{{action 'toggleIsActive'}}>Brian Du</span>
+  <img src="/assets/images/icons/hamburger-menu.svg" {{action 'toggleMenu'}}>
 </nav>
+
+<section>
+  <div class="menu-panel">
+    <div class="link-wrapper">
+      {{#link-to 'home'}}Home{{/link-to}}
+      {{#link-to 'work'}}Work{{/link-to}}
+      {{#link-to 'about'}}About{{/link-to}}
+      {{#link-to 'contact'}}Contact{{/link-to}}
+    </div>
+  </div>
+</section>

@@ -1,10 +1,11 @@
 import Controller from '@ember/controller';
-import { computed } from '@ember/object';
+import { schedule } from '@ember/runloop';
+import { TweenMax, easing } from 'gsap';
 
 export default Controller.extend({
   init: function () {
     this._super();
-    Ember.run.schedule("afterRender", this, function() {
+    schedule('afterRender', this, function() {
       this.runTween();
     });
   },
