@@ -1,4 +1,35 @@
-h1 {
-  color: red;
-  font-size: 36px;
-}
+// Variables
+@import 'variables/colors';
+@import 'variables/fonts';
+@import 'variables/general';
+@import 'variables/z-index';
+
+// Vendor
+@import 'vendor/reset/reset';
+// @import 'vendor/fontello/fontello';
+// @import 'vendor/fontello/fontello-codes';
+// @import 'vendor/pickaday/pickaday';
+// @import 'vendor/chartist/setting-overwrites';
+// @import 'node_modules/chartist/dist/scss/chartist';
+
+// General
+// @import 'mixins';
+// @import 'layout';
+// @import 'reset/box-sizing';
+// @import 'reset/img';
+@import 'application';
+// @import 'animations';
+// @import 'base/button';
+// @import 'base/input';
+// @import 'base/link';
+// @import 'base/select';
+// @import 'base/shared';
+@import 'base/typography';
+// @import 'important';
+
+// Components
+@import 'pod-styles'; // Managed by ember-component-css
+// @import 'components/extra'; // Not Managed by ember-component-css
+
+// Pages
+@import 'pages/home/home';
